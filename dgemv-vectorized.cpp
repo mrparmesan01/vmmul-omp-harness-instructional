@@ -1,3 +1,5 @@
+#include <cstdint>
+
 const char* dgemv_desc = "Vectorized implementation of matrix-vector multiply.";
 
 /*
@@ -8,11 +10,11 @@ const char* dgemv_desc = "Vectorized implementation of matrix-vector multiply.";
  */
 void my_dgemv(int n, double* A, double* x, double* y) {
    // insert your code here: implementation of vectorized vector-matrix multiply
-   for(size_t i = 0; i < n; i++){
+   for(std::size_t i = 0; i < n; i++){
       double* row = &A[i * n];
       double y_temp = y[i];
 
-      for(size_t j = 0; j < n; j++) {
+      for(std::size_t j = 0; j < n; j++) {
          y_temp += row[j] * x[j];
       }
 

@@ -1,0 +1,60 @@
+OMP_NUM_THREASDS =  1
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.000896 seconds
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.000877 seconds
+Working on problem size N=2048
+Poblem Size: N=2048, Elapsed: 0.003595 seconds
+Working on problem size N=4096
+Poblem Size: N=4096, Elapsed: 0.014633 seconds
+Working on problem size N=8192
+Poblem Size: N=8192, Elapsed: 0.058230 seconds
+Working on problem size N=16384
+Poblem Size: N=16384, Elapsed: 0.233055 seconds
+OMP_NUM_THREASDS =  4
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.001342 seconds
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.000473 seconds
+Working on problem size N=2048
+Poblem Size: N=2048, Elapsed: 0.001721 seconds
+Working on problem size N=4096
+Poblem Size: N=4096, Elapsed: 0.006440 seconds
+Working on problem size N=8192
+Poblem Size: N=8192, Elapsed: 0.021504 seconds
+Working on problem size N=16384
+Poblem Size: N=16384, Elapsed: 0.060375 seconds
+OMP_NUM_THREASDS =  16
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.003940 seconds
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.000390 seconds
+Working on problem size N=2048
+Poblem Size: N=2048, Elapsed: 0.001746 seconds
+Working on problem size N=4096
+Poblem Size: N=4096, Elapsed: 0.006681 seconds
+Working on problem size N=8192
+Poblem Size: N=8192, Elapsed: 0.021693 seconds
+Working on problem size N=16384
+Poblem Size: N=16384, Elapsed: 0.059107 seconds
+OMP_NUM_THREASDS =  64
+Description:	OpenMP dgemv.
+
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.015093 seconds
+Working on problem size N=1024
+Poblem Size: N=1024, Elapsed: 0.000771 seconds
+Working on problem size N=2048
+Poblem Size: N=2048, Elapsed: 0.001809 seconds
+Working on problem size N=4096
+Poblem Size: N=4096, Elapsed: 0.006680 seconds
+Working on problem size N=8192
+Poblem Size: N=8192, Elapsed: 0.015368 seconds
+Working on problem size N=16384
+Poblem Size: N=16384, Elapsed: 0.058389 seconds
